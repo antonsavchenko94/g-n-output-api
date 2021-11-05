@@ -1,6 +1,6 @@
 const getGnLetters = require('../../utils/get-gn-letters');
 
-describe('check utilites', () => {
+describe('check utilities', () => {
     it('should check getGnLetters to return only \'G\' letter',  () => {
         expect(getGnLetters(3)).toBe('G');
         expect(getGnLetters(9)).toBe('G');
