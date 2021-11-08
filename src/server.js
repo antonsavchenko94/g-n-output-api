@@ -1,9 +1,20 @@
 const http = require('http');
 const getGnLetters = require('./utils/get-gn-letters');
 
+/**
+ * Host name
+ * @type {string}
+ */
 const hostname = 'localhost';
+/**
+ * Server port
+ * @type {number}
+ */
 const port = 3000;
 
+/**
+ * Function that create simple server
+ */
 const startServer = () => {
     const server = http.createServer((req, res) => {
         try {
